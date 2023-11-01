@@ -1,5 +1,5 @@
-const Claim = require('../models/claim');
-const NotificationModel = require('../models/notification')
+const Claim = ('../models/claim');
+const NotificationModel = ('../models/notification')
 const { StatusCodes } = require('http-status-codes');
 const { BadRequestError } = require('../errors/index');
 const sendEmail = require('../utils/email/sendEmail');
